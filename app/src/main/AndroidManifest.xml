@@ -7,12 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/no_title">
+        <!--android:theme="@style/Theme.AppCompat.NoActionBar"-->
+
+
         <activity
             android:name=".BounceBlock"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/no_title">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

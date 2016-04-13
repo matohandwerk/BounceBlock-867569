@@ -25,7 +25,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        android:layout_gravity="right|center_vertical"
+        android:layout_gravity="center"
         android:background="@drawable/background_carbon">
 
         <LinearLayout
@@ -39,126 +39,6 @@
             tools:ignore="UselessParent">
 
         </LinearLayout>
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vFive"
-            android:layout_gravity="right|bottom"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="195dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vSix"
-            android:layout_gravity="right|bottom"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="105dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/hSix"
-            android:layout_gravity="right|bottom"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="80dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vThree"
-            android:layout_gravity="left|bottom"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="105dp"
-            android:layout_marginLeft="5dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vTwo"
-            android:layout_gravity="left|bottom"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="195dp"
-            android:layout_marginLeft="5dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/hThree"
-            android:layout_gravity="right|center_vertical"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="85dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/hFive"
-            android:layout_gravity="right|bottom"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="170dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/hFour"
-            android:layout_gravity="right|bottom"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="260dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/hTwo"
-            android:layout_gravity="right|center_vertical"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="175dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/hOne"
-            android:layout_gravity="right|center_vertical"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="40dp"
-            android:layout_marginRight="265dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vOne"
-            android:layout_gravity="left|bottom"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="285dp"
-            android:layout_marginLeft="5dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vFour"
-            android:layout_gravity="right|bottom"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button_not_pushed"
-            android:layout_marginBottom="285dp" />
-
-        <ImageView
-            android:layout_width="65dp"
-            android:layout_height="65dp"
-            android:id="@+id/vPushFour"
-            android:layout_gravity="right|bottom"
-            android:layout_marginRight="5dp"
-            android:background="@drawable/button_is_pushed"
-            android:layout_marginBottom="285dp"
-            android:visibility="invisible" />
 
     </FrameLayout>
 
